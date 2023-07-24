@@ -9,7 +9,7 @@ int _printf(const char *format, ...);
 Function Return:
 The _printf function returns the total number of characters printed to stdout (excluding the null byte at the end of strings) after a successful execution. In case of an output error, it returns a negative value of -1.
 
-Format of the Format String:
+Format of the Format String: 
 The format string is a character string enclosed within double quotes. It can consist of ordinary characters (not preceded by %) and conversion specifications, each denoted by a % followed by a conversion specifier.
 
 Each conversion specification may contain (in this order):
